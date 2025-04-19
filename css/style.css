@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  background-color: #2a4693;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo {
+  height: 80px;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.chat-box {
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.user-message,
+.bot-message {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.user-message {
+  background-color: #e2f5ff;
+  margin-left: auto;
+}
+
+.bot-message {
+  background-color: #f0f0f0;
+  margin-right: auto;
+}
+
+.input-area {
+  display: flex;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-top: 1px solid #eee;
+}
+
+#user-input {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+#send-btn {
+  padding: 0.5rem 1rem;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#send-btn:hover {
+  background-color: #1e40af;
+}
+
+.analysis-section {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #fffbeb;
+  border-left: 3px solid #fbbf24;
+}
+
+.analysis-title {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.red-flag {
+  color: #dc2626;
+}
+
+.green-flag {
+  color: #20a551;
+}
+
+.user-message {
+  background-color: #29420f;
+  align-self: flex-end;
+}
+
+.bot-message {
+  background-color: #f1f0f0;
+  align-self: flex-start;
+}
+
+.acknowledgment {
+  margin-top: 2rem;
+  background-color: #fffde7;
+  border-left: 4px solid #fbbf24;
+  padding: 1rem;
+  font-size: 0.95rem;
+}
+
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .user-message,
+  .bot-message {
+    max-width: 90%;
+  }
+}
