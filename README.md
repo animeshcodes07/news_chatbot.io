@@ -70,18 +70,14 @@ This project was developed as part of a college business model demonstration. It
 ## Acknowledgments
 
 - Special thanks to Dr. Ankur Sharma for suggesting the idea of detecting fake news in the education sector
-- Inspired by the Indian motto "सत्यमेव जयते" (Truth Alone Triumphs)
-
-## License
-
-[MIT License](LICENSE)
+- Inspired by the Indian motto "सत्यमेव जयते" (Truth Alone Triump)
 
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Your Name - animesh mishra , mail me at :- anmshcodes@gmail.com
 
-Project Link: [https://github.com/yourusername/educational-fake-news-detector](https://github.com/yourusername/educational-fake-news-detector)
+Project Link: https://github.com/animeshcodes07/news_chatbot.io
 
 ---
 
-Made with ❤️ for my VAC business model | Version 1.0 | April 2025
+Made with ❤️ by animesh mishra | Version 1.0 | April 2025
