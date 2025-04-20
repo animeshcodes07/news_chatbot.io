@@ -44,9 +44,6 @@ The Educational Fake News Detector uses a custom algorithm to analyze news headl
 ### Deploying Online
 This application can be easily deployed on:
 - GitHub Pages
-- Netlify
-- Vercel
-- Any standard web hosting service
 
 ## Usage
 
@@ -70,7 +67,7 @@ This project was developed as part of a college business model demonstration. It
 ## Acknowledgments
 
 - Special thanks to Dr. Ankur Sharma for suggesting the idea of detecting fake news in the education sector
-- Inspired by the Indian motto "सत्यमेव जयते" (Truth Alone Triump)
+- Inspired by the Indian motto "सत्यमेव जयते" (Truth Alone Triumph)
 
 ## Contact
 
