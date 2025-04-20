@@ -150,7 +150,16 @@ footer {
   padding: 1rem;
   margin-top: 1rem;
 }
-
+ .developer-credit {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      opacity: 0.5;
+      font-size: 12px;
+      background-color: #fff;
+      padding: 5px;
+      border-radius: 5px;
+    }
 @media (max-width: 600px) {
   .container {
     padding: 0.5rem;
