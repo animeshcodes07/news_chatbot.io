@@ -37,8 +37,8 @@ The Educational Fake News Detector uses a custom algorithm to analyze news headl
 ### Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/educational-fake-news-detector.git
-   ```
+   git clone 
+https://animeshcodes07.github.io/truthguard.io/
 2. Open `index.html` in your browser
 
 ### Deploying Online
