@@ -62,7 +62,7 @@ This application can be easily deployed on:
 
 ## Project Context
 
-This project was developed as part of a college business model demonstration. It aims to address the growing problem of educational misinformation in India, which can cause unnecessary stress and confusion among students and parents.
+This project was developed as part of a college business model demonstration prototype. It aims to address the growing problem of educational misinformation in India, which can cause unnecessary stress and confusion among students and parents.
 
 ## Acknowledgments
 
